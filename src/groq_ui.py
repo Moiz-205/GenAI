@@ -5,8 +5,8 @@ from models.groq_client.chat import ChatAI
 def main() -> None:
     ui = gr.ChatInterface(
         fn=ChatAI,
-        title="SlaveBot",
-        description="I am servant AI bot of Lord Moiz. All hail Moiz. Banzai",
+        title="Bot",
+        description="Bot for bot purposes",
         # type="messages"
     )
 

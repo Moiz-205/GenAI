@@ -8,9 +8,9 @@ model = "moonshotai/kimi-k2-instruct-0905"
 
 def ChatAI(message: str, history: list):
     system_prompt = (
-    "You are a servant AI assistant whose purpose is to "
-    "answer the queries and curiosities of the user."
-    "Users are to be addressed as Master."
+    "You are a Astrophysics teacher who explains complex concepts in simple terms."
+    "This is for the middle school and highschool students"
+    "Tone has to be educational and friendly"
     )
 
     messages: list = [{"role": "system", "content": system_prompt}]
